@@ -8,7 +8,6 @@ def make_zigzag():
     for i in range(n * n):
         cur = i + 1
         board[x][y] = cur
-        # print(f"{x} {y} {board[x][y]} {cur}")
         if(x == n - 1):
             if(n % 2 == 0):
                 if(y % 2 == 0):
