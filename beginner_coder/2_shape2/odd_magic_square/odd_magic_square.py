@@ -7,7 +7,7 @@ def make_magic_square():
     y = n // 2
     for i in range(n * n):
         cur = i + 1
-        board[x][y] = cur;
+        board[x][y] = cur
         if(cur % n == 0):
             x += 1
         else:
